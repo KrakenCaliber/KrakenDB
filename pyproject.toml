@@ -1,0 +1,19 @@
+[project]
+name = "kraken_db"
+version = "0.1.0"
+description = "A simple database manager using SQLModel and DuckDB"
+readme = "README.md"
+authors = [
+    { name = "Temp", email = "temp@temp.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "sqlmodel",
+  "duckdb",
+  "duckdb-engine",
+  "click"
+]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"

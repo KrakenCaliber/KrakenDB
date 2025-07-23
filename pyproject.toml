@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A simple database manager using SQLModel and DuckDB"
 readme = "README.md"
 authors = [
-    { name = "Temp", email = "temp@temp.com" }
+    { name = "KrakenCaliber", email = "krakencaliber@proton.me" }
 ]
 requires-python = ">=3.10"
 dependencies = [
